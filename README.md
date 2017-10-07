@@ -30,7 +30,7 @@ With one device or emulator connected, use these simple steps to install the key
 
  * Get source: `git clone https://github.com/senzhk/ADBKeyBoard.git`
  * Go into project dir `cd ADBKeyBoard`
- * Set Android SDK location: `export ANDROID_HOME=$HOME/Android/Sdk` or edit file `local.properties`
+ * Set Android SDK location: `export ANDROID_HOME=`brew --prefix`/opt/android-sdk` or edit file `local.properties`
  * Build and install: `./gradlew installDebug`
 
 How to Use
